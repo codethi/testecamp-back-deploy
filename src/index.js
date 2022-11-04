@@ -14,7 +14,7 @@ try {
   console.log(err.message);
 }
 
-const db = mongoClient.db("batepapouol");
+const db = mongoClient.db("testecamp");
 
 const app = express();
 app.use(cors());
